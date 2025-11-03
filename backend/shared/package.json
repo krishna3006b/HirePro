@@ -1,0 +1,38 @@
+{
+  "name": "@hireflow/shared",
+  "version": "1.0.0",
+  "description": "Shared utilities and configurations for HireFlow microservices",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "lint": "eslint src --ext .ts",
+    "format": "prettier --write \"src/**/*.ts\""
+  },
+  "keywords": ["hireflow", "shared", "utilities"],
+  "author": "HireFlow Team",
+  "license": "PROPRIETARY",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "jsonwebtoken": "^9.0.2",
+    "winston": "^3.11.0",
+    "zod": "^3.22.4",
+    "mongoose": "^8.0.3",
+    "ioredis": "^5.3.2",
+    "express": "^4.18.2",
+    "express-rate-limit": "^7.1.5",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/jsonwebtoken": "^9.0.5",
+    "@types/node": "^20.10.5",
+    "@types/express": "^4.17.21",
+    "typescript": "^5.3.3",
+    "eslint": "^8.56.0",
+    "@typescript-eslint/eslint-plugin": "^6.15.0",
+    "@typescript-eslint/parser": "^6.15.0",
+    "prettier": "^3.1.1"
+  }
+}

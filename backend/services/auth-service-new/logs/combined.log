@@ -1,0 +1,5 @@
+{"level":"info","message":"Auth service running on port 3001 in development mode","service":"auth-service","timestamp":"2025-11-04 00:02:03"}
+{"level":"info","message":"MongoDB Connected: localhost","service":"auth-service","timestamp":"2025-11-04 00:02:03"}
+{"level":"info","message":"New candidate registered: varshney.kv1@gmail.com","service":"auth-service","timestamp":"2025-11-04 00:04:33"}
+{"level":"info","message":"Candidate logged in: varshney.kv1@gmail.com","service":"auth-service","timestamp":"2025-11-04 00:13:56"}
+{"level":"info","message":"Candidate logged in: varshney.kv1@gmail.com","service":"auth-service","timestamp":"2025-11-04 00:14:31"}

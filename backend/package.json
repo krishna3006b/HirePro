@@ -1,0 +1,27 @@
+{
+  "name": "hireflow-backend",
+  "version": "1.0.0",
+  "description": "HireFlow AI - Complete Backend Microservices",
+  "private": true,
+  "workspaces": [
+    "shared",
+    "services/*"
+  ],
+  "scripts": {
+    "install:all": "npm install && npm run install:services",
+    "install:services": "for d in services/*; do (cd \ && npm install); done",
+    "dev:gateway": "cd services/api-gateway && npm run dev",
+    "dev:company": "cd services/company-service && npm run dev",
+    "dev:auth": "cd services/auth-service && npm run dev",
+    "test": "npm run test --workspaces",
+    "lint": "npm run lint --workspaces",
+    "format": "npm run format --workspaces",
+    "build": "npm run build --workspaces"
+  },
+  "keywords": ["hireflow", "backend", "microservices", "mern"],
+  "author": "HireFlow Team",
+  "license": "PROPRIETARY",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
