@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { useQuery } from '@tanstack/react-query';
 import { Link } from 'react-router-dom';
 import { jobService } from '@/services/jobService';
-import { Job JobFilters } from '@/types';
+import { Job, JobFilters } from '@/types';
 import { Search, MapPin, Briefcase, DollarSign, Filter, X } from 'lucide-react';
 import toast from 'react-hot-toast';
 
